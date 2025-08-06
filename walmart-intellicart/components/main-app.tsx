@@ -17,12 +17,12 @@ export function MainApp() {
     switch (activeTab) {
       case "home":
         return <HomePage />
-      case "lists":
-        return <ListsPage />
-      case "recipes":
-        return <RecipesPage />
-      case "store":
-        return <StorePage />
+      // case "lists":
+      //   return <ListsPage />
+      // case "recipes":
+      //   return <RecipesPage />
+      // case "store":
+      //   return <StorePage />
       case "cart":
         return <CartPage />
       case "profile":
