@@ -17,8 +17,8 @@ export function MainApp() {
     switch (activeTab) {
       case "home":
         return <HomePage />
-      // case "lists":
-      //   return <ListsPage />
+      case "lists":
+        return <ListsPage />
       // case "recipes":
       //   return <RecipesPage />
       // case "store":

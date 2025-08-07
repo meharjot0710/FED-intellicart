@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   keywords: "grocery, shopping, AI, smart cart, walmart, household, navigation",
   authors: [{ name: "Walmart IntelliCart Team" }],
   viewport: "width=device-width, initial-scale=1",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

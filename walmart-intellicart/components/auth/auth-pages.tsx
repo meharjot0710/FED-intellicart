@@ -88,7 +88,6 @@ export function AuthPages({ onComplete }: AuthPagesProps) {
   const handleSocialLogin = async (provider: string) => {
     setLoading(true)
     try {
-      // For now, just show a toast - implement actual social login later
       toast({
         title: "Coming Soon",
         description: `${provider} login will be available soon`,
